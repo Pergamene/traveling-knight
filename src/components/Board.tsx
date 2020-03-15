@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 
 import Square from './Square';
+import { Location } from '../entities/Location';
 import { findPossibleMoves } from '../utils/utility-knight';
 
 const useStyles = makeStyles({
@@ -27,7 +28,7 @@ const Board = () => {
     setMoves(moves + 1);
   }
 
-  const changeLocation = (newLocation: number[]) => {
+  const changeLocation = (newLocation: Location) => {
     setPossibles(findPossibleMoves(newLocation));
   }
 

@@ -52,7 +52,7 @@ const Square = (props: SquareProps) => {
     if (possible) {
       setClickNumber(moves);
       incrementMoves();
-      changeLocation([row, column]);
+      changeLocation({row: row, column: column});
     }
   }
   
