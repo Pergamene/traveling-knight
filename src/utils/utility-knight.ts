@@ -1,11 +1,13 @@
-export function findPossibleMoves(location: number[]): number[][] {
-  const [row, column] = location;
+import { Location } from '../entities/Location';
+
+export function findPossibleMoves(location: Location): number[][] {
+  const {row, column} = location;
   let move: number[];
   const moves: number[][] = [];
-  
-  let one: number = 1; 
-  let two: number = 2;
-  for (let i: number = 1; i <= 4; i++) {
+
+  let one = 1; 
+  let two = 2;
+  for (let i = 1; i <= 4; i++) {
     one *= -1;
     if (i > 2) {
       two = -2;
