@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/traveling-knight/static/js/main.d17d3d7c.chunk.js",
+    "main.js.map": "/traveling-knight/static/js/main.d17d3d7c.chunk.js.map",
+    "runtime-main.js": "/traveling-knight/static/js/runtime-main.d784c346.js",
+    "runtime-main.js.map": "/traveling-knight/static/js/runtime-main.d784c346.js.map",
+    "static/js/2.bfdb5793.chunk.js": "/traveling-knight/static/js/2.bfdb5793.chunk.js",
+    "static/js/2.bfdb5793.chunk.js.map": "/traveling-knight/static/js/2.bfdb5793.chunk.js.map",
+    "index.html": "/traveling-knight/index.html",
+    "precache-manifest.6476290dfee87123bea19cb0f8ee2c68.js": "/traveling-knight/precache-manifest.6476290dfee87123bea19cb0f8ee2c68.js",
+    "service-worker.js": "/traveling-knight/service-worker.js",
+    "static/js/2.bfdb5793.chunk.js.LICENSE.txt": "/traveling-knight/static/js/2.bfdb5793.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d784c346.js",
+    "static/js/2.bfdb5793.chunk.js",
+    "static/js/main.d17d3d7c.chunk.js"
+  ]
+}
