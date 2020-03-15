@@ -20,7 +20,6 @@ const useStyles = makeStyles({
 const Board = () => {
   const emptyPossibles: number[][] = [];
   const classes = useStyles();
-  const [location, setLocation] = useState([-1, -1]);
   const [possibles, setPossibles] = useState(emptyPossibles);
   const [moves, setMoves] = useState(0);
 
@@ -29,7 +28,6 @@ const Board = () => {
   }
 
   const changeLocation = (newLocation: number[]) => {
-    setLocation(newLocation);
     setPossibles(findPossibleMoves(newLocation));
   }
 
