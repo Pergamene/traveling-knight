@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "984e6c009a7544cb378602ce190c0c51",
+    "revision": "5cb4130dab9fb64cf132778070e728d9",
     "url": "/traveling-knight/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/traveling-knight/static/js/2.bfdb5793.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5f67d58df997f8439378",
-    "url": "/traveling-knight/static/js/main.d17d3d7c.chunk.js"
+    "revision": "e63613acbb11e8639d57",
+    "url": "/traveling-knight/static/js/main.bf04345e.chunk.js"
   },
   {
     "revision": "35c1cd56e6f34c8fab27",

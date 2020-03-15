@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/traveling-knight/precache-manifest.6476290dfee87123bea19cb0f8ee2c68.js"
+  "/traveling-knight/precache-manifest.4a9bae175f72d91cc16c14ee57b3269a.js"
 );
 
 self.addEventListener('message', (event) => {
