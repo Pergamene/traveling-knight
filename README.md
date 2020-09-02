@@ -2,6 +2,8 @@
 
 React | TypeScript
 
+[Playable link](https://pergamene.github.io/traveling-knight)
+
 ## Objective
 
 The **Knight** must visit every square on the board without returning to a previously visited square.
